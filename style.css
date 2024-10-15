@@ -1,4 +1,12 @@
 h1{
     border: solid crimson ;
     background-color: blue;
+    color: crimson;
+    border-radius: 25px;
+}
+p{
+    border: dashed pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-radius: 25px;
 }
