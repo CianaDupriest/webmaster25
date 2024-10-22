@@ -24,6 +24,9 @@ html {
 .poopy {
   color: #725752;
 }
+a:hover {
+  color: #878e88;
+}
 /* hexidecimal for our green #93d576 */
 /* hexidecimal for our tan #fef6c9 */
 /* hexidecimal for our grey #d4dfc7 */
