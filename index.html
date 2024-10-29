@@ -4,27 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" /> 
+      <!-- make a new terminal and type this thing beloqw, then use liveserver methink -->
+       <!-- npx tailwindcss -i ./input.css -o ./output.css --watch -->
+
+      <!-- if that doesnt work then youll have to install tailwind and/or node: https://nodejs.org/en/download/prebuilt-installer https://tailwindcss.com/docs/installation-->
   </head>
 
   <body class="bg-zinc"> 
    <img src="Three Grapes.jfif" alt="" />
 
-    <nav class="bg-themegreen sticky w-full z-0 top-0 start-0 text-zinc">
-      <div class="max-w-screen-xl flex justify-between mx-auto p-4 text-2xl">
-        <a href="#">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="res.html">Reservations</a>
-        <a href="about.html">About Us</a>
-        <a href="TSA.html">TSA</a>
+    <nav class="bg-themegreen sticky w-full top-0 start-0 py-2 z-50">
+      <div class="max-w-screen-xl flex justify-between mx-auto py-4 px-14 text-2xl text-zinc-50 font-mono">
+        <div class="px-4">
+          <a href="#" class="mr-4 hover:bg-zinc-50 hover:text-themegreen rounded-lg p-2 transform transition duration-200 hover:scale-110">Home</a>
+          <a href="menu.html" class="mr-4 hover:bg-zinc-50 hover:text-themegreen rounded-lg p-2 transform transition duration-200 hover:scale-110">Menu</a>
+          <a href="res.html" class="mr-4 hover:bg-zinc-50 hover:text-themegreen rounded-lg p-2 transform transition duration-200 hover:scale-110">Reservations</a>
+          <a href="about.html" class="mr-4 hover:bg-zinc-50 hover:text-themegreen rounded-lg p-2 transform transition duration-200 hover:scale-110">About Us</a>
+        </div>
+        <div>
+          <a href="TSA.html" class="mr-4 hover:bg-zinc-50 hover:text-themegreen rounded-lg p-2 transform transition duration-200 hover:scale-110">TSA</a>
+        </div>
       </div>
     </nav>
 
+    <br><br>
 
-    <p class="bg-themegrey">what if when yuou if then when</p>
-      <!-- make a new terminal and type this thing below to watch the website, dont use liveserver -->
-       <!-- npx tailwindcss -i ./input.css -o ./style.css --watch -->
+    <p class="font-mono m-6 p-4 w-1/2 border-l-2 border-themebrown bg-zinc-100 rounded-r-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eos? 
+      Odio sit natus nobis dolor aliquam quidem! Repellendus ab odio earum, harum quo vitae enim, 
+      nisi consequatur, dolores voluptatem corporis.</p>
+    
+      <!-- what if we mad ethis a slidesho0w / carousel -->
+    <div class="absolute right-10 -translate-y-20 ">
+      <img class="rounded-xl" src="./img/ladywithgoat.jpg" alt="">
+    </div>
+    
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </body>
 </html>
