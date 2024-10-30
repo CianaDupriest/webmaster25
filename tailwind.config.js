@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/**/*.{html,js}",
+    content: ["./src/**/*.{html,js,ttf}",
 
-        './*.{html,js}'],
+        './*.{html,js,ttf}'],
     theme: {
         extend: {
 
@@ -15,6 +15,10 @@ module.exports = {
                 'themegrey': '#878e88',
                 'themebrown': '#725752'
             },
+
+            fontFamily: {
+                'montserrat': ['Montserrat', 'sans-serif']
+            }
         },
     },
     plugins: [],
